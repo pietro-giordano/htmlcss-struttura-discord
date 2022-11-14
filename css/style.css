@@ -138,4 +138,23 @@ hr {
       color: white;
 }
 
+.debug footer .footer-bottom {
+      height: 70px;
+      align-items: flex-end;
+}
+
+.debug footer .footer-bottom .footer-bar {
+      height: 55px;
+      width: 100%;
+      background-color: #7fffd4;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.debug footer .footer-bottom .footer-bar .logo-footer,
+.debug footer .footer-bottom .footer-bar .button-footer {
+      background-color: #ffb6c1;
+      padding: 5px;
+      border: 2px dashed black;
+}
 
