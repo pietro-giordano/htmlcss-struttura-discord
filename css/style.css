@@ -22,6 +22,8 @@ ul {
       justify-content: center;
 }
 
+/* Main*/
+
 
 
 
@@ -33,6 +35,7 @@ ul {
 
 
 /* debug */
+/* debug header  */
 .debug header nav {
       min-height: 80px;
       background-color: #add8e6;
@@ -68,6 +71,7 @@ ul {
       border: 2px dashed black;
 }
 
+/* debug main  */
 .debug main section .sub-section {
       min-height: 500px;
       justify-content: center;
@@ -75,15 +79,52 @@ ul {
 }
 
 .debug main section .sub-section .image-section {
-      min-height: 400px;
+      height: 400px;
       width: 60%;
       background-color: #1e90ff;
       border: 2px dashed black;
 }
 
 .debug main section .sub-section article {
-      min-height: 400px;
+      height: 400px;
       width: 40%;
       background-color: #ffc0cb;
+      border: 2px dashed black;
+}
+
+.debug main section:nth-child(even) {
+      background-color: #d3d3d3;
+}
+
+.debug main section .sub-section .main-footer {
+      height: 700px;
+      width: 100%;
+      background-color: #228b22;
+      border: 2px dashed black;
+      margin-top: 50px;
+      margin-bottom: 50px;
+}
+
+/* debug footer  */
+.debug footer {
+      background-color: black;
+}
+
+.debug footer .footer-section {
+      margin-top: 10px;
+      margin-bottom: 20px;
+}
+
+.debug footer .footer-section .footer-section-left {
+      width: 33%;
+      height: 400px;
+      background-color: #f08080;
+      border: 2px dashed black;
+}
+
+.debug footer .footer-section .footer-section-right {
+      width: 67%;
+      height: 400px;
+      background-color: #20b2aa;
       border: 2px dashed black;
 }
