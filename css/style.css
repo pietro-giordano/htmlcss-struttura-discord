@@ -6,9 +6,14 @@
 }
 
 /* Generali */
+.container {
+      width: 900px;
+      margin: 0 auto;
+}
 
-
-
+.container-flex {
+      display: flex;
+}
 
 
 
@@ -21,3 +26,31 @@
 
 
 /* debug */
+nav {
+      min-height: 80px;
+      background-color: #add8e6;
+      align-items: center;
+}
+
+.logo,
+.login {
+      width: 20%;
+      height: 40px;
+      background-color: #daa520;
+      border: 2px dashed black;
+}
+
+.links {
+      width: 60%;
+      height: 40px;
+      background-color: #daa520;
+      border: 2px dashed black;
+}
+
+.jumbotron {
+      height: 500px;
+      background-color: #00008b;
+}
+
+
+
