@@ -48,6 +48,16 @@ ul {
       height: 40px;
       background-color: #daa520;
       border: 2px dashed black;
+      align-items: center;
+}
+
+.debug header nav .logo {
+      padding-left: 5px;
+}
+
+.debug header nav .login {
+      justify-content: flex-end;
+      padding-right: 5px;
 }
 
 .debug header nav .links {
@@ -55,7 +65,10 @@ ul {
       height: 40px;
       background-color: #daa520;
       border: 2px dashed black;
+      align-items: center;
+      justify-content: center;
 }
+
 
 .debug header .jumbotron {
       height: 500px;
@@ -111,8 +124,8 @@ ul {
 }
 
 .debug footer .footer-nav {
-      margin-top: 10px;
-      margin-bottom: 25px;
+      padding-top: 10px;
+      padding-bottom: 25px;
 }
 
 .debug footer .footer-nav .footer-nav-left {
