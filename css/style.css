@@ -110,21 +110,32 @@ ul {
       background-color: black;
 }
 
-.debug footer .footer-section {
+.debug footer .footer-nav {
       margin-top: 10px;
-      margin-bottom: 20px;
+      margin-bottom: 25px;
 }
 
-.debug footer .footer-section .footer-section-left {
+.debug footer .footer-nav .footer-nav-left {
       width: 33%;
       height: 400px;
       background-color: #f08080;
       border: 2px dashed black;
 }
 
-.debug footer .footer-section .footer-section-right {
+.debug footer .footer-nav .footer-nav-right {
       width: 67%;
       height: 400px;
-      background-color: #20b2aa;
       border: 2px dashed black;
 }
+
+.debug footer .footer-nav .footer-nav-right .nav-footer {
+      width: 25%;
+      border: 2px dashed white;
+      background-color: #20b2aa;
+}
+
+hr {
+      color: white;
+}
+
+
